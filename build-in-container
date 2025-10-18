@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /opt/rt-n56u/trunk
+fakeroot ./build_firmware_modify RM2100

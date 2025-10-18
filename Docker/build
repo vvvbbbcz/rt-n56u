@@ -1,0 +1,3 @@
+#!/bin/bash
+nerdctl build -t padavan:20.04 .
+

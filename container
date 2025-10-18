@@ -1,0 +1,8 @@
+#!/bin/bash
+
+DIR=$(pwd)
+IMAGE=padavan:20.04
+
+nerdctl run -it --rm \
+	-v $DIR:/opt/rt-n56u \
+	$IMAGE
